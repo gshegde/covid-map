@@ -1,0 +1,48 @@
+body{
+
+    background-color:whitesmoke;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+
+}
+
+.imgr{
+    width:370px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+@media(max-width:770px){
+    .container{
+        margin:0 10%;
+        
+    }
+    .imgr{
+        width: 85%;
+        
+    }
+    .foot{
+        width:100%
+    }
+}
+
+.foot{
+    letter-spacing: 0.2em;
+    font-size: 1.2rem;    
+    
+    margin-top: 50px;
+    text-indent: 50px;
+  text-align: left;
+  letter-spacing: 3px;
+   margin-bottom:5px;
+    text-shadow: 1px 1px;
+
+  color: #4CAF50;
+}
